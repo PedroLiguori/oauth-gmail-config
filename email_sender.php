@@ -32,7 +32,7 @@ class PointCMEmailSender {
         }
     }
 
-    private function montarCorpoEmail($nome, $email, $telefone, $mensagem) {
+    private function montarcorpoemail($nome, $email, $telefone, $mensagem) {
         return "Novo contato via site:\n\n" .
                "Nome: $nome\n" .
                "E-mail: $email\n" .
@@ -52,7 +52,7 @@ class PointCMEmailSender {
 
     private function autenticarECarregarToken() {
         // Lógica para carregar e autenticar o token
-        // Implementação específica dependerá de como você armazena o token
+        // Implementação específica de como vc armazena o token/senha do servidor do site
     }
 }
 ?>
